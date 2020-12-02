@@ -8,7 +8,7 @@ A proposed structure for a standardized structire for storing chord and fingerin
     title: "G Major",
     root: "G",
     type: "Major",
-    position: 0,
+    position: 0, // starting fret to show when drawing chord 
     notes: [
       /**
         * string and fret are min requiered, finger, note & interval 
