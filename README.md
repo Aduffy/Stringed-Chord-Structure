@@ -9,7 +9,11 @@ A proposed structure for a standardized structire for storing chord and fingerin
     root: "G",
     type: "Major",
     position: 0,
-    shape: [
+    notes: [
+      /**
+        * string and fret are min requiered, finger, note & interval 
+        * can be later calulated based string/fret/root 
+      */
       { string: 6, fret: 3, finger: 1, note: 'G', interval: "P1" },
       { string: 5, fret: 5, finger: 3, note: 'D', interval: 'P5' },
       { string: 4, fret: 5, finger: 4, note: 'G', interval: 'P1' },
@@ -23,4 +27,6 @@ A proposed structure for a standardized structire for storing chord and fingerin
 }
 
 ```
+
+All notes of the chord should be defined in 'notes', so that note names and intervals can be optionaly displayed along with the chord. 
 
