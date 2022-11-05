@@ -1,6 +1,6 @@
 # Stringed-Chord-Structure
 
-A proposed structure for a standardized structire for storing chord and fingerings for stringed instruments. 
+A proposed structure for a standardized structure for storing chord and fingerings for stringed instruments. 
 
 ```javascript 
 
